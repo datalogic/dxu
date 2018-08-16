@@ -2,6 +2,8 @@
 
 ## hello-dpc
 Sample device owner app.
-Scan this barcode at Setup Wizard QR code enrollment page (after tapping 6 times on home screen).
 
-<img src="samples/hello-dpc/hello-dpc-enterprise-qr.png/>
+- After factory reseting a device, tap 6 times on the Setup Wizard's first page. 
+- Scan this barcode after the QR Code reader is ready to scan using the device's rear camera:
+
+![qr code](samples/hello-dpc/hello-dpc-enterprise-qr.png)
