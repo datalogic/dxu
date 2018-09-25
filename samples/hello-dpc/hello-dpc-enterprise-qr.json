@@ -1,5 +1,0 @@
-{
-	"android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "datalogic.com.hellodpc/datalogic.com.hellodpc.DeviceOwnerReceiver",
-	"android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "IrLfTUt8OcrR_lggeEIyj26tSX1rlOews2jfDAW1EGE=",
-	"android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://datalogic.github.io/scan2deploy/samples/hello-dpc/hello-dpc.apk"
-}
