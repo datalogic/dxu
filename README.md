@@ -1,18 +1,13 @@
 **DXU**
 
-> **Datalogic Configuration**
-> 
-> **Firmware Update**
-> 
-> **Remote Control**
-> 
-> **v1.9.x**
-> 
-> ![](./media/image1.png)
+**Datalogic Configuration**
 
-## 
+**Firmware Update**
 
-## 
+**Remote Control**
+
+**v1.9.x**
+
 
 ## Datalogic ADC, Inc.
 
@@ -62,96 +57,75 @@ See
 [<span class="underline">www.patents.datalogic.com</span>](http://www.patents.datalogic.com/)
 for patent list.
 
-## 
 
 ## Contents
 
-[Datalogic ADC, Inc. 2](#datalogic-adc-inc.)
+[Audience](#audience)
 
-[©2017 Datalogic ADC, Inc. 2](#datalogic-adc-inc.-1)
+[Conventions](#conventions)
 
-[Disclaimer 2](#disclaimer)
+[Product Overview](#product-overview)
 
-[Patents 2](#patents)
+[DXU Features](#dxu-features)
 
-[Contents 3](#_Toc481683903)
+[How DXU Works](#how-dxu-works)
 
-[Audience 5](#audience)
+[Supported Datalogic Mobile Computers](#supported-datalogic-mobile-computers)
 
-[Conventions 5](#conventions)
+[Installation](#installation)
 
-[Product Overview 6](#product-overview)
+[Supported Windows Versions](#supported-windows-versions)
 
-[DXU Features 6](#dxu-features)
+[Unsupported Windows Versions](#unsupported-windows-versions)
 
-[How DXU Works 7](#how-dxu-works)
+[How to Install DXU](#how-to-install-dxu)
 
-[Supported Datalogic Mobile Computers
-8](#supported-datalogic-mobile-computers)
+[Controls](#controls)
 
-[Installation 8](#installation)
+[DXU Agent Controls](#dxu-agent-controls)
 
-[Supported Windows Versions 8](#supported-windows-versions)
+[DXU Application Controls](#dxu-application-controls)
 
-[Unsupported Windows Versions 8](#unsupported-windows-versions)
+[Simplified Deploy](#simplified-deploy)
 
-[How to Install DXU 9](#how-to-install-dxu)
+[Tasks](#tasks)
 
-[Controls 10](#controls)
+[Connect to a Device via USB](#connect-to-a-device-via-usb)
 
-[DXU Agent Controls 10](#dxu-agent-controls)
+[Connect to a Device via Network Manually](#connect-to-a-device-via-network-manually)
 
-[DXU Application Controls 18](#dxu-application-controls)
+[Connect to a Device via Network Using Scan2Deploy](#connect-to-a-device-via-network-using-scan2deploy)
 
-[Simplified Deploy 22](#simplified-deploy)
+[Deleting a Device from the Available Device List](#deleting-a-device-from-the-available-device-list)
 
-[Tasks 33](#tasks)
+[Configuration Files](#configuration-files)
 
-[Connect to a Device via USB 33](#connect-to-a-device-via-usb)
+[Configure a Device On-line](#configure-a-device-on-line)
 
-[Connect to a Device via Network Manually
-34](#connect-to-a-device-via-network-manually)
+[Configure a Device Off-line via Scan2Deploy](#configure-a-device-off-line-via-scan2deploy)
 
-[Connect to a Device via Network Using Scan2Deploy
-35](#connect-to-a-device-via-network-using-scan2deploy)
+[Configure DXU](#configure-dxu)
 
-[Deleting a Device from the Available Device List
-36](#deleting-a-device-from-the-available-device-list)
-
-[Configuration Files 36](#configuration-files)
-
-[Configure a Device On-line 41](#configure-a-device-on-line)
-
-[Configure a Device Off-line via Scan2Deploy
-42](#configure-a-device-off-line-via-scan2deploy)
-
-[Configure DXU 44](#configure-dxu)
-
-[Enable Logging on the Datalogic Mobile Computer
-48](#enable-logging-on-the-datalogic-mobile-computer)
+[Enable Logging on the Datalogic Mobile Computer](#enable-logging-on-the-datalogic-mobile-computer)
 
 [Set User Names, Passwords, and Prompt for Authentication on DXU
-Configuration Files
-50](#set-user-names-passwords-and-prompt-for-authentication-on-dxu-configuration-files)
+Configuration Files](#set-user-names-passwords-and-prompt-for-authentication-on-dxu-configuration-files)
 
-[Create Scan2Deploy Labels to Fully Configure Remote Devices
-53](#create-scan2deploy-labels-to-fully-configure-remote-devices)
+[Create Scan2Deploy Labels to Fully Configure Remote Devices](#create-scan2deploy-labels-to-fully-configure-remote-devices)
 
-[View Device Info for a Connected Device
-55](#view-device-info-for-a-connected-device)
+[View Device Info for a Connected Device](#view-device-info-for-a-connected-device)
 
-[View Device Info Recorded in a Configuration File
-55](#view-device-info-recorded-in-a-configuration-file)
+[View Device Info Recorded in a Configuration File](#view-device-info-recorded-in-a-configuration-file)
 
-[Remote Control 56](#remote-control)
+[Remote Control](#remote-control)
 
-[Set a VNC Password 58](#set-a-vnc-password)
+[Set a VNC Password](#set-a-vnc-password)
 
-[Update Firmware 59](#update-firmware)
+[Update Firmware](#update-firmware)
 
-[Configuring SureLock and SureFox 62](#configuring-surelock-and-surefox)
+[Configuring SureLock and SureFox](#configuring-surelock-and-surefox)
 
-[Command Line DXU Execution 69](#_Toc481683936)
+[Command Line DXU Execution](#command-line-dxu-execution)
 
 ## Audience
 
@@ -175,7 +149,7 @@ systems will often be referred to as a “PC.”
 **Application controls** are highlighted in **boldface** for
 convenience.
 
-![](./media/image40.jpeg) Notes are highlighted with this icon for
+![](./media/image40.png) Notes are highlighted with this icon for
 visibility. These points illustrate ideas to remember.
 
 ![](./media/image41.png) Cautions are highlighted with this icon for
@@ -332,8 +306,6 @@ Find these settings in the DXU Agent application on the mobile computer.
 
 4.  Tap the Settings item
 
-#### 
-
 #### DXU Agent Settings Window
 
 Here is a brief overview of each of the settings:
@@ -441,11 +413,11 @@ it.
 
 ##### k. Is Simplified Deploy enabled
 
-##### This checkbox enables Simplified Deploy. This is a security setting that could be used, for example, to allow use of Simplified Deploy only once as an out-of-box experience.
+This checkbox enables Simplified Deploy. This is a security setting that could be used, for example, to allow use of Simplified Deploy only once as an out-of-box experience.
 
 ##### l. Is application install enabled
 
-##### This checkbox enables installing applications with Simplified Deploy. This is a security setting that can be used to disable the feature of allowing Simplified Deploy to install customer applications onto the device.
+This checkbox enables installing applications with Simplified Deploy. This is a security setting that can be used to disable the feature of allowing Simplified Deploy to install customer applications onto the device.
 
 ##### m. Enable VNC
 
@@ -647,63 +619,45 @@ to reside in the C:\\Datalogic\\DXUManifests folder. If they don’t then
 the Manifest File entry must specify the path.
 
 **Manifest file format:**
+```
+[update]
 
-\[update\]
+<name of firmware file with full path on DXU Server PC\>
 
-\<name of firmware file with full path on DXU Server PC\>
+[install]
 
-\[install\]
+<name of app1 to install file with full path on DXU Server PC>
 
-\<name of app1 to install file with full path on DXU Server PC\>
-
-\<name of app2 to install file with full path on DXU Server PC\>
+<name of app2 to install file with full path on DXU Server PC>
 
 ...
 
-\<name of appN to install file with full path on DXU Server PC\>
+<name of appN to install file with full path on DXU Server PC>
 
-\[config\]
+[config]
 
-\<name of DXU configuration file file with full path on DXU Server PC\>
+<name of DXU configuration file file with full path on DXU Server PC>
 
-**  
-**
+```
 
 **Android Example**
-
-\[update\]
+```
+[update]
 
 firmware.zip
 
-\[install\]
+[install]
 
 install.apk
 
 C:\\Users\\DLUser\\Documents\\Android\\my\_terminal.apk
 
-\[config\]
+[config]
 
 defaultConfigAndroid.dxu
 
 C:\\Users\\DLUser\\Documents\\Android\\my\_user.dxu
-
-**WEC7 Example**
-
-\[update\]
-
-firmware.img
-
-\[install\]
-
-install.cab
-
-C:\\Users\\DLUser\\Documents\\Wec7\\auto\_sync.cab
-
-\[config\]
-
-defaultConfigWec7.dxu
-
-C:\\Users\\DLUser\\Documents\\Wec7\\my\_user.dxu
+```
 
 #### Scan2Deploy
 
@@ -749,8 +703,6 @@ To print this barcode, from DXU desktop:
     button.
 
 ![](./media/image57.png)
-
-#### 
 
 #### Printing Custom Configuration Barcodes
 
@@ -994,21 +946,19 @@ device and system are in the same subnet and do this:
     
     ![](./media/image64.png)
 
-<!-- end list -->
-
-4.  In the “Add Device“ dialog, enter the **IP address** of the device
+2.  In the “Add Device“ dialog, enter the **IP address** of the device
     and optionally its port if it is has been changed from the default;
 
-![](./media/image40.jpeg) Note: you will see the IP Address and port
+![](./media/image40.png) Note: you will see the IP Address and port
 details displayed on DXU’s main view along with the model name, serial
 number, and an illustration of the device.
 
-5.  Click the **OK** button to complete.
+3.  Click the **OK** button to complete.
 
 The added device will display on the left side of the console under
 **Available Device**.
 
-![](./media/image40.jpeg) Note: you can also directly connect the device
+![](./media/image40.png) Note: you can also directly connect the device
 to DXU using USB.
 
 ### Connect to a Device via Network Using Scan2Deploy
@@ -1019,33 +969,31 @@ and to DXU using default settings, do this:
 
 1.  Launch **DXU**.
 
-<!-- end list -->
+2.  Click the **Scan2Deploy** button on DXU’s main view.
 
-6.  Click the **Scan2Deploy** button on DXU’s main view.
-
-7.  Enter the **SSID** and **Password** for the Wi-Fi access point that
+3.  Enter the **SSID** and **Password** for the Wi-Fi access point that
     your Datalogic mobile computer will use to connect to your network.
 
-![](./media/image40.jpeg) Note: in most cases you should be able to
+![](./media/image40.png) Note: in most cases you should be able to
 leave other fields with their default values. You may, of course, change
 those values as needed to work with your network setup.
 
-8.  Click the “**Print Preview**” button.
+4.  Click the “**Print Preview**” button.
 
-9.  Click the **Print** button in the button bar.
+5.  Click the **Print** button in the button bar.
 
-10. Since Print dialogs vary by the model or your printer, configure the
+6. Since Print dialogs vary by the model or your printer, configure the
     print job and print as you normally do. Clean up by closing these
     dialogs.
 
-11. Resume the device and unlock its screen.
+7. Resume the device and unlock its screen.
 
-12. Launch the DXU Agent application.
+8. Launch the DXU Agent application.
 
-13. Tap the **Menu** button, and then select the **Scan2Deploy**
+9. Tap the **Menu** button, and then select the **Scan2Deploy**
     command.
 
-14. Scan the barcode.
+10. Scan the barcode.
 
 Your device should appear in DXU’s main window in the “Available Device”
 list. Click that button to continue configuring your device.
@@ -1093,12 +1041,10 @@ To load a configuration file saved earlier, do this:
 
 1.  Launch DXU.
 
-<!-- end list -->
-
-15. Click the “**Load Configuration**” file. This will open a standard
+2. Click the “**Load Configuration**” file. This will open a standard
     file dialog.
 
-16. Explore to your configuration file, select it, and click the
+3. Explore to your configuration file, select it, and click the
     **Open** button.
 
 ![](./media/image66.png)
@@ -1132,11 +1078,9 @@ from are not connected to DXU. Do this:
 
 1.  Open your configuration file.
 
-<!-- end list -->
+2. Edit any settings you wish.
 
-17. Edit any settings you wish.
-
-18. Either save the result to a new configuration file, or just save to
+3. Either save the result to a new configuration file, or just save to
     the same configuration file.
 
 #### Add Comments to Configuration Settings
@@ -1152,16 +1096,14 @@ To add a comment:
 1.  Open a configuration file or load the configuration from a connected
     device.
 
-<!-- end list -->
+2. Click the “**Configure This Device**” button.
 
-19. Click the “**Configure This Device**” button.
-
-20. Right-click on any tab, node, or parameter, then select the “**Add
+3. Right-click on any tab, node, or parameter, then select the “**Add
     comment**” command in the context-sensitive menu.
 
-21. Type your comment.
+4. Type your comment.
 
-22. Click the **OK** button to save. A small text balloon will appear
+5. Click the **OK** button to save. A small text balloon will appear
     next to the item you commented on.
 
 To edit a comment:
@@ -1182,13 +1124,11 @@ doing this:
 1.  Open a configuration file or load the configuration from a connected
     device.
 
-<!-- end list -->
+2. Click the “**Configure This Device**” button.
 
-23. Click the “**Configure This Device**” button.
+3. If do not have comments in this configuration file, add several.
 
-24. If do not have comments in this configuration file, add several.
-
-25. Click the “**Show Comments**” button in the button bar.
+4. Click the “**Show Comments**” button in the button bar.
 
 You can select and edit comments in this table by double-clicking on the
 Comment field. Simply click the exit button (**X**) to close the dialog.
@@ -1211,16 +1151,14 @@ To configure a device that is directly connected via USB:
 3.  Click the button for your connected device in the “Available Device”
     list.
 
-<!-- end list -->
+4. Click the “Configure This Device” button.
 
-26. Click the “Configure This Device” button.
+5. Configure any settings you wish.
 
-27. Configure any settings you wish.
-
-28. Save changes to a configuration file of you do not wish to apply
+6. Save changes to a configuration file of you do not wish to apply
     them to your device.
 
-29. Apply the configuration changes to your device is this is what you
+7. Apply the configuration changes to your device is this is what you
     want to do.
 
 To configure a device that is connected over the network (either
@@ -1228,25 +1166,21 @@ Ethernet or Wi-Fi):
 
 1.  Launch DXU.
 
-<!-- end list -->
-
-4.  Connect your Datalogic mobile computer to DXU manually, using
+2.  Connect your Datalogic mobile computer to DXU manually, using
     Scan2Deploy labels, or using automatic discovery. (See instructions
     for these methods in this section.)
 
-5.  Click the button for your connected device in the “Available Device”
+3.  Click the button for your connected device in the “Available Device”
     list.
 
-<!-- end list -->
+4. Click the “Configure This Device” button.
 
-30. Click the “Configure This Device” button.
+5. Configure any settings you wish.
 
-31. Configure any settings you wish.
-
-32. Save changes to a configuration file of you do not wish to apply
+6. Save changes to a configuration file of you do not wish to apply
     them to your device.
 
-33. Apply the configuration changes to your device is this is what you
+7. Apply the configuration changes to your device is this is what you
     want to do.
 
 ### Configure a Device Off-line via Scan2Deploy
@@ -1266,9 +1200,7 @@ The **Device Configuration** tab also has following additional options:
     
     ![](./media/image59.png)
 
-<!-- end list -->
-
-34. **Include Unmodified Changes**: when you configure a device using
+2. **Include Unmodified Changes**: when you configure a device using
     the console, you don’t always wish to configure all settings, so by
     default the generated codes for configuration do not include
     unmodified settings. However, once checked the “**Include Unmodified
@@ -1276,7 +1208,7 @@ The **Device Configuration** tab also has following additional options:
     the barcode set, letting you fully configure a remote device even
     when it does not have network access to your DXU console computer.
 
-35. **Include Binary Data**: DXU configuration files can contain some
+3. **Include Binary Data**: DXU configuration files can contain some
     data in binary formats, like wallpaper images. The “**Include Binary
     Data**” option allows you to include all binary data in the barcode
     set. Note that excluding binary data can significantly reduce the
@@ -1289,62 +1221,60 @@ To create a **Scan2Deploy** label set:
 1.  Open a configuration file or load the configuration from a connected
     device.
 
-<!-- end list -->
+2. Click the “**Configure This Device**” button.
 
-36. Click the “**Configure This Device**” button.
+3. Configure any settings you wish.
 
-37. Configure any settings you wish.
+4. (Optional) **Save** your configuration.
 
-38. (Optional) **Save** your configuration.
-
-39. Click the **Back** button to return to the **Desktop Configuration
+5. Click the **Back** button to return to the **Desktop Configuration
     Utility** view.
 
-40. Click the “**Scan2Deploy**” button.
+6. Click the “**Scan2Deploy**” button.
 
-41. Click the “**Device Configuration**” tab.
+7. Click the “**Device Configuration**” tab.
 
-42. (Optional) Check the “**Include Unmodified Changes**” checkbox to
+8. (Optional) Check the “**Include Unmodified Changes**” checkbox to
     include all configuration settings in your Scan2Deploy barcodes.
 
-43. (Optional) Check the “**Include Binary Data**” checkbox to include
+9. (Optional) Check the “**Include Binary Data**” checkbox to include
     binary data like the desktop wallpaper image in the configuration
     barcodes.
 
 ![](./media/image41.png) Note: this option will increase the number of
 barcode labels in the Scan2Deploy label set.
 
-44. (Optional) Select the barcode symbology in the “**Barcode Type**”
+10. (Optional) Select the barcode symbology in the “**Barcode Type**”
     menu.
 
-45. Click the **Save** button to save your barcode label set as a
+11. Click the **Save** button to save your barcode label set as a
     graphic image file.
 
-46. To print, click the “**Print Preview**” button, then click the
+12. To print, click the “**Print Preview**” button, then click the
     **Print** button in the button bar, and then finish printing using
     your printer’s Print dialog.
 
 To apply the configuration by scanning the **Scan2Deploy** barcodes:
 
-47. Resume your Datalogic mobile computer and unlock its screen.
+13. Resume your Datalogic mobile computer and unlock its screen.
 
-48. Launch the **DXU Agent** application.
+14. Launch the **DXU Agent** application.
 
-49. Tap the **Menu** button, and then select the **Scan2Deploy**
+15. Tap the **Menu** button, and then select the **Scan2Deploy**
     command.
 
-50. Scan any label in your Scan2Deploy label set.
+16. Scan any label in your Scan2Deploy label set.
 
-![](./media/image40.jpeg) Note: some configurations are small enough to
+![](./media/image40.png) Note: some configurations are small enough to
 fit on only one barcode label, and others may have many barcodes to
 scan.
 
-51. Continue to scan all barcodes until all of them on the list on the
+17. Continue to scan all barcodes until all of them on the list on the
     screen indicate they have been scanned. Once the last label is
     scanned, the configuration will be put into effect, and an on-screen
     notification will confirm that your configuration is complete.
 
-52. Clean up by tapping the **Home** button.
+18. Clean up by tapping the **Home** button.
 
 ### Configure DXU
 
@@ -1388,26 +1318,22 @@ To configure DXU’s UDP and TCP ports:
 3.  Edit the port values to match the ports used by **DXU Agent** on
     your devices:
 
-<!-- end list -->
-
-53. The “Desktop UDP Server Port” configures the UDP port for the DXU
+4. The “Desktop UDP Server Port” configures the UDP port for the DXU
     server running on the on the console PC. It is set to UDP port 3453
     by default.
 
-54. The “Device UDP Server Port” configures the UDP port for the DXU
+5. The “Device UDP Server Port” configures the UDP port for the DXU
     Agent server running on the device. It is set to UDP port 3453 by
     default.
 
-55. The “Device HTTP Server Port” configures the TCP port for the DXU
+6. The “Device HTTP Server Port” configures the TCP port for the DXU
     Agent server running on the device. It is set to TCP port 80 by
     default, like common web servers.
 
-56. The “Device VNC Server Port” configures the TCP port for VNC running
+7. The “Device VNC Server Port” configures the TCP port for VNC running
     on the device. It is set to TCP port 5900, like common VNC servers.
 
-<!-- end list -->
-
-4.  Click the **Back** button (a leftward pointing arrow in a circle) to
+8.  Click the **Back** button (a leftward pointing arrow in a circle) to
     return to DXU’s main view).
 
 #### Enable Automatic Discovery of Devices
@@ -1425,13 +1351,11 @@ To enable automatic discovery of devices:
 
 1.  In DXU’s main view, click the **Settings** button.
 
-<!-- end list -->
+2.  Click the “**Advanced Settings**” tab.
 
-5.  Click the “**Advanced Settings**” tab.
+3.  Check the “**Enable Automatic Discovery of Devices**” checkbox.
 
-6.  Check the “**Enable Automatic Discovery of Devices**” checkbox.
-
-7.  Click the **Back** button (a leftward pointing arrow in a circle) to
+4.  Click the **Back** button (a leftward pointing arrow in a circle) to
     return to DXU’s main view).
 
 #### Enable Logging on the DXU Console PC
@@ -1447,15 +1371,13 @@ To enable logging:
 
 1.  In DXU’s main view, click the **Settings** button.
 
-<!-- end list -->
-
-8.  Click the “**Advanced Settings**” tab.
+2.  Click the “**Advanced Settings**” tab.
     
     ![](./media/image72.png)
 
-9.  Check the “**Enable Logging**” checkbox.
+3.  Check the “**Enable Logging**” checkbox.
 
-10. Click the **Back** button (a leftward pointing arrow in a circle) to
+4. Click the **Back** button (a leftward pointing arrow in a circle) to
     return to DXU’s main view).
 
 #### Reset Advanced Settings to Defaults
@@ -1465,15 +1387,13 @@ this:
 
 1.  In DXU’s main view, click the **Settings** button.
 
-<!-- end list -->
+2. Click the “**Advanced Settings**” tab.
 
-11. Click the “**Advanced Settings**” tab.
+3. Click the “**Reset Advanced Settings**” button.
 
-12. Click the “**Reset Advanced Settings**” button.
+4. Click the **Yes** button to confirm.
 
-13. Click the **Yes** button to confirm.
-
-14. Click the **Back** button (a leftward pointing arrow in a circle) to
+5. Click the **Back** button (a leftward pointing arrow in a circle) to
     return to DXU’s main view).
 
 ### Enable Logging on the Datalogic Mobile Computer
@@ -1497,53 +1417,47 @@ To enable DXU Agent logging on your Datalogic mobile computer:
 
 2.  Launch the **DXU Agent** application.
 
-<!-- end list -->
+3. Tap the **Menu** button to display the menu.
 
-57. Tap the **Menu** button to display the menu.
+4. Tap the **Settings** button.
 
-58. Tap the **Settings** button.
-
-59. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-60. Check the “**Enable Log**” checkbox.
+6. Check the “**Enable Log**” checkbox.
 
-61. Check the “**Enable Service**” checkbox.
+7. Check the “**Enable Service**” checkbox.
 
-62. Clean up by tapping the **Home** button.
+8. Clean up by tapping the **Home** button.
 
 To specify where log files are stored on your Datalogic mobile computer:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-3.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-63. Tap the **Menu** button to display the menu.
-
-64. Tap the **Settings** button.
-
-65. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-66. Tap the “**Change Log File Location**” button.
+6. Tap the “**Change Log File Location**” button.
 
-67. Type a valid path on your device into the “Change Log File Location”
+7. Type a valid path on your device into the “Change Log File Location”
     field, and then tap the **OK** button.
 
-68. (Optional, but desired if you wish to log to this new location)
+8. (Optional, but desired if you wish to log to this new location)
     Check the “**Enable Log**” checkbox.
 
-69. Check the “**Enable Service**” checkbox.
+9. Check the “**Enable Service**” checkbox.
 
-70. Clean up by tapping the **Home**
+10. Clean up by tapping the **Home**
 button.
 
 ### Set User Names, Passwords, and Prompt for Authentication on DXU Configuration Files
@@ -1567,42 +1481,34 @@ To enable authentication:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-4.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-71. Tap the **Menu** button to display the menu.
-
-72. Tap the **Settings** button.
-
-73. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-74. Check the “**Is Authentication Required**” checkbox.
+6. Check the “**Is Authentication Required**” checkbox.
 
-75. Check the “**Enable Service**” checkbox.
+7. Check the “**Enable Service**” checkbox.
 
-76. Clean up by tapping the **Home** button.
+8. Clean up by tapping the **Home** button.
 
 To authenticate while opening DXU Agent’s Settings window:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-5.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-77. Tap the **Menu** button to display the menu.
-
-78. Tap the **Settings** button.
-
-79. Type your password into the “**Enter Password**” field, and then tap
+5. Type your password into the “**Enter Password**” field, and then tap
     the **OK** button.
     
     ![](./media/image48.png)
@@ -1618,32 +1524,28 @@ To change the User Name:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-6.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-80. Tap the **Menu** button to display the menu.
-
-81. Tap the **Settings** button.
-
-82. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-83. Tap the “**User Name**” button.
+6. Tap the “**User Name**” button.
 
-84. Delete the contents of the field, and type a new user name.
+7. Delete the contents of the field, and type a new user name.
 
-85. Tap the **OK** button.
+8. Tap the **OK** button.
 
-86. Check the “**Is Authentication Required**” checkbox.
+9. Check the “**Is Authentication Required**” checkbox.
 
-87. Check the “**Enable Service**” checkbox.
+10. Check the “**Enable Service**” checkbox.
 
-88. Clean up by tapping the **Home** button.
+11. Clean up by tapping the **Home** button.
 
 #### Change the Password in DXU Agent
 
@@ -1654,32 +1556,28 @@ To change the Password:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-7.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-89. Tap the **Menu** button to display the menu.
-
-90. Tap the **Settings** button.
-
-91. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-92. Tap the **Password** button.
+6. Tap the **Password** button.
 
-93. Delete the contents of the field, and type a password.
+7. Delete the contents of the field, and type a password.
 
-94. Tap the **OK** button.
+8. Tap the **OK** button.
 
-95. Check the “**Is Authentication Required**” checkbox.
+9. Check the “**Is Authentication Required**” checkbox.
 
-96. Check the “**Enable Service**” checkbox.
+10. Check the “**Enable Service**” checkbox.
 
-97. Clean up by tapping the **Home** button.
+11. Clean up by tapping the **Home** button.
 
 ### Create Scan2Deploy Labels to Fully Configure Remote Devices
 
@@ -1707,66 +1605,64 @@ device:
 1.  Open a configuration file or load the configuration from a connected
     device.
 
-<!-- end list -->
+2. Click the “**Configure This Device**” button.
 
-98. Click the “**Configure This Device**” button.
+3. Configure any settings you wish.
 
-99. Configure any settings you wish.
+4. (Optional) **Save** your configuration.
 
-100. (Optional) **Save** your configuration.
-
-101. Click the **Back** button to return to the **Desktop Configuration
+5. Click the **Back** button to return to the **Desktop Configuration
      Utility** view.
 
-102. Click the “**Scan2Deploy**” button.
+6. Click the “**Scan2Deploy**” button.
 
-103. Click the “**Device Configuration**” tab.
+7. Click the “**Device Configuration**” tab.
 
-104. (Optional) Check the “**Include Unmodified Changes**” checkbox (2)
+8. (Optional) Check the “**Include Unmodified Changes**” checkbox (2)
      to include all configuration settings in your Scan2Deploy barcodes.
 
 ![](./media/image41.png) Note: this option will increase the number of
 barcode labels in the Scan2Deploy label set.
 
-105. (Optional) Check the “**Include Binary Data**” checkbox (3) to
+9. (Optional) Check the “**Include Binary Data**” checkbox (3) to
      include binary data like the desktop wallpaper image in the
      configuration barcodes.
 
 ![](./media/image41.png) Note: this option will increase the number of
 barcode labels in the Scan2Deploy label set.
 
-106. (Optional) Select the barcode symbology in the “**Barcode Type**”
+10. (Optional) Select the barcode symbology in the “**Barcode Type**”
      menu (1).
 
-107. Click the **Save** button to save your barcode label set as a
+11. Click the **Save** button to save your barcode label set as a
      graphic image file.
 
-108. To print, click the “**Print Preview**” button, then click the
+12. To print, click the “**Print Preview**” button, then click the
      **Print** button in the button bar, and then finish printing using
      your printer’s Print dialog.
 
 To apply the configuration by scanning the **Scan2Deploy** barcodes:
 
-109. Resume your Datalogic mobile computer and unlock its screen.
+13. Resume your Datalogic mobile computer and unlock its screen.
 
-110. Launch the **DXU Agent** application.
+14. Launch the **DXU Agent** application.
 
-111. Tap the **Menu** button, and then select the **Scan2Deploy**
+15. Tap the **Menu** button, and then select the **Scan2Deploy**
      command.
 
-112. Scan any label in your Scan2Deploy label set.
+16. Scan any label in your Scan2Deploy label set.
 
-![](./media/image40.jpeg) Note: some configurations are small enough to
+![](./media/image40.png) Note: some configurations are small enough to
 fit on only one barcode label, and others may have many barcodes to
 scan.
 
-113. Continue to scan all barcodes until all of them on the list on the
+17. Continue to scan all barcodes until all of them on the list on the
      screen indicate they have been scanned. Once the last label is
      scanned, the configuration will be put into effect, and an
      on-screen notification will confirm that your configuration is
      complete.
 
-114. Clean up by tapping the **Home** button.
+18. Clean up by tapping the **Home** button.
 
 ### View Device Info for a Connected Device
 
@@ -1780,11 +1676,9 @@ To view information about the device you are connected to:
 
 1.  Load the configuration from a connected device.
 
-<!-- end list -->
+2. Click the “**Device Info**” button.
 
-115. Click the “**Device Info**” button.
-
-116. Click the **Back** button (a leftward pointing arrow in a circle)
+3. Click the **Back** button (a leftward pointing arrow in a circle)
      to return to DXU’s main view).
 
 ### View Device Info Recorded in a Configuration File
@@ -1910,31 +1804,27 @@ To set or edit a VNC password in DXU Agent:
 
 1.  Resume your mobile computer and unlock its screen.
 
-<!-- end list -->
+2.  Launch the **DXU Agent** application.
 
-8.  Launch the **DXU Agent** application.
+3. Tap the **Menu** button to display the menu.
 
-<!-- end list -->
+4. Tap the **Settings** button.
 
-117. Tap the **Menu** button to display the menu.
-
-118. Tap the **Settings** button.
-
-119. Uncheck the “**Enable Service**” checkbox.
+5. Uncheck the “**Enable Service**” checkbox.
 
 ![](./media/image41.png) Note: you must uncheck “Enable Service” before
 you can change any setting in DXU Agent.
 
-120. In the “**VNC Settings**” section, tap the **Password** button.
+6. In the “**VNC Settings**” section, tap the **Password** button.
 
-121. Type a password into the field. It can be numbers, letters, or some
+7. Type a password into the field. It can be numbers, letters, or some
      punctuation characters.
 
-122. Tap the **OK** button.
+8. Tap the **OK** button.
 
-123. Check the “**Enable Service**” checkbox.
+9. Check the “**Enable Service**” checkbox.
 
-124. Clean up by tapping the **Home** button.
+10. Clean up by tapping the **Home** button.
 
 To authenticate Remote Control when a password is set on the device:
 
@@ -1985,7 +1875,7 @@ whether a factory data reset or an enterprise reset is performed after
 updating the firmware, or if the update will simply reboot the device
 without performing an update. See also, **Simplified Deploy**, above.
 
-![](./media/image40.jpeg) Note: DXU firmware update is not the only way
+![](./media/image40.png) Note: DXU firmware update is not the only way
 to update firmware on Datalogic mobile computers. DXU’s firmware update
 capability works only with connected devices. If you need a method that
 can update firmware on many devices remotely, especially if they are not
@@ -1993,7 +1883,7 @@ connected to a network, then other methods may suit your needs better.
 Please consult your device’s user reference guide for other firmware
 update methods.
 
-![](./media/image40.jpeg) Note: customarily firmware update is referred
+![](./media/image40.png) Note: customarily firmware update is referred
 to as “update” on Datalogic mobile computers that use Microsoft Windows
 operating systems, and it is referred to as “upgrade” on Datalogic
 mobile computers that use the Android operating system. These terms are
@@ -2163,10 +2053,9 @@ the unencrypted activation code.
 
 ![](./media/image80.png)
 
-<span id="_Toc481683936" class="anchor"></span> Command Line DXU
-Execution
+## Command Line DXU Execution
 
-#### Overview
+### Overview
 
 DXU allows for command line execution, such as via a .bat batch file.
 This is a convenient method for configuring multiple devices without
@@ -2177,22 +2066,31 @@ Simplified Deploy. This configuration can happen via USB or over Wi-Fi
 Optionally, you can perform Simplified Deploy, with a manifest file,
 without using Scan2Deploy.
 
-#### Usage
+### Usage
 
-DXU command line options are:
+DXU command line options are described below.
 
-DXU –put \<filename.dxu\> Applies configuration file to any USB
-connected devices
+Apply configuration file to any USB connected devices:
+```
+DXU –put \<filename.dxu\>
+```
 
-DXU –put \<filename.dxu\> -ip \<ipaddress\> Applies configuration file
-to device of specific IP address
+Apply configuration file to device of specific IP address:
+```
+DXU –put \<filename.dxu\> -ip \<ipaddress\> 
+```
 
-DXU –man \<filename.ini\> Applies Simplified Deploy to any USB connected
-devices
+Apply Simplified Deploy to any USB connected devices:
+```
+DXU –man \<filename.ini\> 
+```
 
-DXU –man \<filename.ini\> -ip \<ipaddress\> Applies Simplified Deploy to
-device of specific IP address
+Apply Simplified Deploy to device of specific IP address:
+```
+DXU –man \<filename.ini\> -ip \<ipaddress\>
+```
 
 To output a log file, add the optional parameter:
-
+```
 \-log \<logfilename\>
+```
