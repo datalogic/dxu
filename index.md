@@ -36,19 +36,9 @@ title: Datalogic DXU Desktop
 
 1. [Tasks](#tasks)
 
-   1. [Connect to a Device via USB](#connect-to-a-device-via-usb)
-
-   1. [Connect to a Device via Network Manually](#connect-to-a-device-via-network-manually)
-
-   1. [Connect to a Device via Network Using Scan2Deploy](#connect-to-a-device-via-network-using-scan2deploy)
-
-   1. [Deleting a Device from the Available Device List](#deleting-a-device-from-the-available-device-list)
+   1. [Connect to a devices](#connect-to-devices)
 
    1. [Configuration Files](#configuration-files)
-
-   1. [Configure a Device On-line](#configure-a-device-on-line)
-
-   1. [Configure a Device Off-line via Scan2Deploy](#configure-a-device-off-line-via-scan2deploy)
 
    1. [Configure DXU](#configure-dxu)
 
@@ -64,8 +54,6 @@ Configuration Files](#set-user-names-passwords-and-prompt-for-authentication-on-
    1. [View Device Info Recorded in a Configuration File](#view-device-info-recorded-in-a-configuration-file)
 
    1. [Remote Control](#remote-control)
-
-   1. [Set a VNC Password](#set-a-vnc-password)
 
    1. [Update Firmware](#update-firmware)
 
@@ -202,26 +190,13 @@ The DXU desktop application must be installed on a Windows PC. DXU Agent
 is already pre-installed on Datalogic mobile computers.
 
 ### Supported Windows Versions
+DXU is supported on both 32-bit and 64-bit versions of the following Windows operating systems:
 
-#### Windows Vista family
-
-DXU is supported on both 32-bit and 64-bit versions of Windows Vista.
-
-#### Windows 7 family
-
-DXU is supported on both 32-bit and 64-bit versions of Windows 7.
-
-#### Windows 8 family
-
-DXU is supported on both 32-bit and 64-bit versions of Windows 8.
-
-#### Windows 8.1 family
-
-DXU is supported on both 32-bit and 64-bit versions of Windows 8.1.
-
-#### Windows 10 family
-
-DXU is supported on both 32-bit and 64-bit versions of Windows 10.
+* Windows Vista
+* Windows 7
+* Windows 8
+* Windows 8.1
+* Windows 10
 
 ### Unsupported Windows Versions
 
@@ -884,7 +859,8 @@ settings in one set of barcodes and applying them by scanning the labels
 
 ## Tasks
 
-### Connect to a Device via USB
+### Connect to devices
+#### Connect to a Device via USB
 
 You can connect to a Datalogic mobile computer directly by connecting it
 to your PC with a USB cable. DXU will connect to it directly without any
@@ -896,7 +872,7 @@ further set-up.
 
 3.  Click the device’s button in the “**Available Device**” list.
 
-### Connect to a Device via Network Manually
+#### Connect to a Device via Network Manually
 
 If DXU Agent on the device has its **“Enable Discovery Manager”**
 feature enabled and **DXU** has “**Automatic Discovery of Devices”**
@@ -925,7 +901,7 @@ The added device will display on the left side of the console under
 ![](./media/image40.png) Note: you can also directly connect the device
 to DXU using USB.
 
-### Connect to a Device via Network Using Scan2Deploy
+#### Connect to a Device via Network Using Scan2Deploy
 
 These steps assume you already have your network set up, and you already
 have your printer set up. To connect a device to a Wi-Fi access point
@@ -962,7 +938,7 @@ those values as needed to work with your network setup.
 Your device should appear in DXU’s main window in the “Available Device”
 list. Click that button to continue configuring your device.
 
-### Deleting a Device from the Available Device List
+#### Deleting a Device from the Available Device List
 
 Simply click the exit button (**X**) located at top right of the device.
 
@@ -1677,7 +1653,7 @@ screen. Remote Control works through the magic of software.
 
 ![](./media/image73.png)
 
-#### Unlock the Screen Using Remote Control
+##### Unlock the Screen Using Remote Control
 
 You can unlock the screen by dragging your mouse on the Remote Control
 screen in the same manner as a user swiping on the device’s screen.
@@ -1701,20 +1677,20 @@ To start **Remote Control** and unlock a device’s screen:
     the **unlocked lock icon** at the right edge of the Remote Control
     window.
 
-#### 1\. Home Button
+##### 1\. Home Button
 
 At the bottom of the Remote Control window, the **Home** button
 activates the device’s Home button, which switches the display to the
 Home screen.
 
-#### 2\. Menu Button
+##### 2\. Menu Button
 
 At the bottom of the Remote Control window, the **Menu** button
 activates the device’s menu. Some applications have a menu, and others
 do not, so this feature depends on which application is active when you
 click the Menu button.
 
-#### 3\. Power Button
+##### 3\. Power Button
 
 At the bottom of the Remote Control window, the **Power** button toggles
 the device’s power state as if you had pressed the device’s Power
@@ -1723,13 +1699,13 @@ the screen, locking the screen if the device is configured to do that.
 If the device’s screen is off, clicking the Power button will resume the
 device as if you pushed the device’s Power button.
 
-#### 4\. Back Button
+##### 4\. Back Button
 
 At the bottom of the Remote Control window, the **Back** button takes
 the device to the previously viewed screen or application as if you had
 tapped the device’s Back button.
 
-#### 5\. Scan Button
+##### 5\. Scan Button
 
 At the bottom of the Remote Control window, the **Scan** button
 activates the device’s barcode scanner as if you had pressed one of the
@@ -1742,13 +1718,13 @@ scan. However, in general if you have your device configured to scan
 barcodes and an application is receiving the data, then the Scan button
 will trigger a scan remotely.
 
-#### 6\. Save a Screenshot of Remote Device
+##### 6\. Save a Screenshot of Remote Device
 
 At the bottom of the Remote Control window, the **Save** button takes a
 screen shot of the remote computer and prompts to save it to your PC.
 The default path that DXU saves screen shots is your user folder.
 
-### Set a VNC Password
+#### Set a VNC Password
 
 VNC is a standard protocol for remotely controlling PC’s and other
 computers, and it allows the use of a password to prevent unwanted
@@ -1757,7 +1733,7 @@ remote access to computers.
 ![](./media/image41.png) Note: the VNC password must match between DXU
 console and DXU Agent on the device or a connection will not be made.
 
-#### Set a VNC Password in DXU Agent
+##### Set a VNC Password in DXU Agent
 
 You can set a password for VNC in DXU Agent. This field allows VNC
 communication to be authenticated, so prying eyes cannot remotely
@@ -2104,5 +2080,4 @@ brand and product names may be trademarks of their respective owners.
 ## Patents
 
 See
-[<span class="underline">www.patents.datalogic.com</span>](http://www.patents.datalogic.com/)
-for patent list.
+[www.patents.datalogic.com](http://www.patents.datalogic.com/) for patent list.
