@@ -1,131 +1,78 @@
-**DXU**
+# Datalogic DXU Desktop 1.9
+* **Datalogic Configuration**
 
-**Datalogic Configuration**
+* **Firmware Update**
 
-**Firmware Update**
-
-**Remote Control**
-
-**v1.9.x**
-
-
-## Datalogic ADC, Inc.
-
-959 Terry Street
-
-Eugene, OR 97402 USA
-
-Telephone: (541) 683-5700
-
-Fax: (541) 345-7140
-
-## ©2017 Datalogic ADC, Inc.
-
-An Unpublished Work - All rights reserved. No part of the contents of
-this documentation or the procedures described therein may be reproduced
-or transmitted in any form or by any means with- out prior written
-permission of Datalogic ADC, Inc. or its subsidiaries or affiliates
-(“Datalogic” or “Datalogic ADC”). Owners of Datalogic products are
-hereby granted a non-exclusive, revocable license to reproduce and
-transmit this documentation for the purchaser’s own internal business
-purposes. Purchaser shall not remove or alter any proprietary notices,
-including copyright notices, contained in this documentation and shall
-ensure that all notices appear on any reproductions of the
-documentation.
-
-Should future revisions of this manual be published, you can acquire
-printed versions by contacting your Datalogic representative. Electronic
-versions may either be downloadable from the Datalogic website
-(www.datalogic.com) or provided on appropriate media. If you visit our
-website and would like to make comments or suggestions about this or
-other Datalogic publications, please let us know via the “Contact
-Datalogic” page.
-
-## Disclaimer
-
-Datalogic has taken reasonable measures to provide information in this
-manual that is complete and accurate; however, Datalogic reserves the
-right to change any specification at any time without prior notice.
-
-Datalogic and the Datalogic logo are registered trademarks of Datalogic
-S.p.A. in many countries, including the U.S.A. and the E.U. All other
-brand and product names may be trademarks of their respective owners.
-
-## Patents
-
-See
-[<span class="underline">www.patents.datalogic.com</span>](http://www.patents.datalogic.com/)
-for patent list.
-
+* **Remote Control**
 
 ## Contents
 
-[Audience](#audience)
+1. [Audience](#audience)
 
-[Conventions](#conventions)
+1. [Conventions](#conventions)
 
-[Product Overview](#product-overview)
+1. [Product Overview](#product-overview)
 
-[DXU Features](#dxu-features)
+   1. [DXU Features](#dxu-features)
 
-[How DXU Works](#how-dxu-works)
+   1. [How DXU Works](#how-dxu-works)
 
-[Supported Datalogic Mobile Computers](#supported-datalogic-mobile-computers)
+   1. [Supported Datalogic Mobile Computers](#supported-datalogic-mobile-computers)
 
-[Installation](#installation)
+1. [Installation](#installation)
 
-[Supported Windows Versions](#supported-windows-versions)
+   1. [Supported Windows Versions](#supported-windows-versions)
 
-[Unsupported Windows Versions](#unsupported-windows-versions)
+   1. [Unsupported Windows Versions](#unsupported-windows-versions)
 
-[How to Install DXU](#how-to-install-dxu)
+   1. [How to Install DXU](#how-to-install-dxu)
 
-[Controls](#controls)
+1. [Controls](#controls)
 
-[DXU Agent Controls](#dxu-agent-controls)
+   1. [DXU Agent Controls](#dxu-agent-controls)
 
-[DXU Application Controls](#dxu-application-controls)
+   1. [DXU Application Controls](#dxu-application-controls)
 
-[Simplified Deploy](#simplified-deploy)
+   1. [Simplified Deploy](#simplified-deploy)
 
-[Tasks](#tasks)
+1. [Tasks](#tasks)
 
-[Connect to a Device via USB](#connect-to-a-device-via-usb)
+   1. [Connect to a Device via USB](#connect-to-a-device-via-usb)
 
-[Connect to a Device via Network Manually](#connect-to-a-device-via-network-manually)
+   1. [Connect to a Device via Network Manually](#connect-to-a-device-via-network-manually)
 
-[Connect to a Device via Network Using Scan2Deploy](#connect-to-a-device-via-network-using-scan2deploy)
+   1. [Connect to a Device via Network Using Scan2Deploy](#connect-to-a-device-via-network-using-scan2deploy)
 
-[Deleting a Device from the Available Device List](#deleting-a-device-from-the-available-device-list)
+   1. [Deleting a Device from the Available Device List](#deleting-a-device-from-the-available-device-list)
 
-[Configuration Files](#configuration-files)
+   1. [Configuration Files](#configuration-files)
 
-[Configure a Device On-line](#configure-a-device-on-line)
+   1. [Configure a Device On-line](#configure-a-device-on-line)
 
-[Configure a Device Off-line via Scan2Deploy](#configure-a-device-off-line-via-scan2deploy)
+   1. [Configure a Device Off-line via Scan2Deploy](#configure-a-device-off-line-via-scan2deploy)
 
-[Configure DXU](#configure-dxu)
+   1. [Configure DXU](#configure-dxu)
 
-[Enable Logging on the Datalogic Mobile Computer](#enable-logging-on-the-datalogic-mobile-computer)
+   1. [Enable Logging on the Datalogic Mobile Computer](#enable-logging-on-the-datalogic-mobile-computer)
 
-[Set User Names, Passwords, and Prompt for Authentication on DXU
+   1. [Set User Names, Passwords, and Prompt for Authentication on DXU
 Configuration Files](#set-user-names-passwords-and-prompt-for-authentication-on-dxu-configuration-files)
 
-[Create Scan2Deploy Labels to Fully Configure Remote Devices](#create-scan2deploy-labels-to-fully-configure-remote-devices)
+   1. [Create Scan2Deploy Labels to Fully Configure Remote Devices](#create-scan2deploy-labels-to-fully-configure-remote-devices)
 
-[View Device Info for a Connected Device](#view-device-info-for-a-connected-device)
+   1. [View Device Info for a Connected Device](#view-device-info-for-a-connected-device)
 
-[View Device Info Recorded in a Configuration File](#view-device-info-recorded-in-a-configuration-file)
+   1. [View Device Info Recorded in a Configuration File](#view-device-info-recorded-in-a-configuration-file)
 
-[Remote Control](#remote-control)
+   1. [Remote Control](#remote-control)
 
-[Set a VNC Password](#set-a-vnc-password)
+   1. [Set a VNC Password](#set-a-vnc-password)
 
-[Update Firmware](#update-firmware)
+   1. [Update Firmware](#update-firmware)
 
-[Configuring SureLock and SureFox](#configuring-surelock-and-surefox)
+   1. [Configuring SureLock and SureFox](#configuring-surelock-and-surefox)
 
-[Command Line DXU Execution](#command-line-dxu-execution)
+1. [Command Line DXU Execution](#command-line-dxu-execution)
 
 ## Audience
 
@@ -227,10 +174,21 @@ your network specialists for more information.
 
 ### Supported Datalogic Mobile Computers
 
-DXU supports Datalogic mobile computers that run the Android operating
-system. At this time, only the DL-AXIST Personal Data Assistant is
-supported. In time other products and operating systems will be
-supported by DXU.
+DXU supports select Datalogic mobile computers that run Android and Windows CE operating
+systems.
+
+#### Supported Android devices:
+* Joya Touch A6
+* Joya Touch A6 Healthcare
+* Skorpio X4
+* Falcon X4
+* DL-Axist
+
+#### Supported Windows CE devices:
+* Skorpio X4
+* Falcon X4
+* Skorpio X3
+* Falcon X3 / X3+
 
 ## Installation
 
@@ -577,7 +535,7 @@ another DXU configuration file.
 
 ## Simplified Deploy
 
-#### Overview
+### Overview
 
 DXU desktop can be configured to enable the Datalogic out-of-box
 experience Simplified Deploy, using either Scan2Deploy and/or Tag2Deploy
@@ -599,7 +557,7 @@ In order for Simplified Deploy to function:
   - Using the Scan2Deploy button on DXU desktop, a Simplified Deploy
     barcode must be generated and printed.
 
-#### Manifest File
+### Manifest File
 
 Manifest Files are text .ini files which indicate which firmware
 versions to update devices to (\[update\] tag), which DXU configuration
@@ -659,7 +617,7 @@ defaultConfigAndroid.dxu
 C:\\Users\\DLUser\\Documents\\Android\\my\_user.dxu
 ```
 
-#### Scan2Deploy
+### Scan2Deploy
 
 Scan2Deploy allows a Datalogic mobile computer running DXU Agent to
 connect using DXU Agent’s Scan2Deploy functionality by scanning a
@@ -675,7 +633,7 @@ label. This button opens the Scan2Deploy dialog streamlined to create
 Wi-Fi access point on your PC’s subnet and to automatically connect it
 to DXU, adding it to DXU’s “**Available Device**” list.
 
-#### Printing a Simplified Deploy Barcode
+### Printing a Simplified Deploy Barcode
 
 By embedding the IP address of the PC where DXU desktop is installed,
 security information for accessing the Wi-Fi network, and name of the
@@ -704,7 +662,7 @@ To print this barcode, from DXU desktop:
 
 ![](./media/image57.png)
 
-#### Printing Custom Configuration Barcodes
+### Printing Custom Configuration Barcodes
 
 Outside of Simplified Deploy, the **Scan2Deploy** button located in a
 device’s “**Datalogic Configuration Utility**” view can also
@@ -730,9 +688,9 @@ the Wi-Fi network.
 
 ![](./media/image58.png)
 
-##### Wi-Fi Configuration Tab
+#### Wi-Fi Configuration Tab
 
-###### Barcode Type Menu
+##### Barcode Type Menu
 
 The “Barcode Type” menu allows you to choose which barcode symbology
 that Scan2Deploy labels will be printed in. Each barcode symbology has
@@ -748,18 +706,18 @@ that can be scanned by laser scanners, but its data capacity is low,
 which may result in a great many individual labels to be scanned in
 order to fully configure a mobile computer remotely.
 
-###### Print Preview
+##### Print Preview
 
 The Wi-Fi Configuration tab offers a live preview of the barcode as you
 select the barcode type and enter data into the dialog’s fields.
 
-###### Save Button
+##### Save Button
 
 You may save Scan2Deploy labels as graphic files, should this prove
 convenient for including Scan2Deploy barcodes in an e-mail to a remote
 office, for example.
 
-###### Wi-Fi Configuration Controls
+##### Wi-Fi Configuration Controls
 
 As with the other version of the Scan2Deploy dialog, this group of
 controls allows you to configure the automatic configuration of a
@@ -774,14 +732,14 @@ with a static IP address, do not have two different devices scan the
 same label set, or an IP conflict will result. Consult your network
 expert for more information.
 
-###### Pairing Configuration Controls
+##### Pairing Configuration Controls
 
 These fields let you configure your connection to the PC you are running
 DXU on. These fields are filled in automatically, but you can change
 them to deliberately connect to another IP address where another
 instance of DXU is running, for example.
 
-##### Barcode Settings
+#### Barcode Settings
 
 As with the other version of the Scan2Deploy dialog, this tab lets you
 set the maximum size of each label by symbology. For example, if you
@@ -2094,3 +2052,51 @@ To output a log file, add the optional parameter:
 ```
 \-log \<logfilename\>
 ```
+
+## Datalogic ADC, Inc.
+
+959 Terry Street
+
+Eugene, OR 97402 USA
+
+Telephone: (541) 683-5700
+
+Fax: (541) 345-7140
+
+## ©2017 Datalogic ADC, Inc.
+
+An Unpublished Work - All rights reserved. No part of the contents of
+this documentation or the procedures described therein may be reproduced
+or transmitted in any form or by any means with- out prior written
+permission of Datalogic ADC, Inc. or its subsidiaries or affiliates
+(“Datalogic” or “Datalogic ADC”). Owners of Datalogic products are
+hereby granted a non-exclusive, revocable license to reproduce and
+transmit this documentation for the purchaser’s own internal business
+purposes. Purchaser shall not remove or alter any proprietary notices,
+including copyright notices, contained in this documentation and shall
+ensure that all notices appear on any reproductions of the
+documentation.
+
+Should future revisions of this manual be published, you can acquire
+printed versions by contacting your Datalogic representative. Electronic
+versions may either be downloadable from the Datalogic website
+(www.datalogic.com) or provided on appropriate media. If you visit our
+website and would like to make comments or suggestions about this or
+other Datalogic publications, please let us know via the “Contact
+Datalogic” page.
+
+## Disclaimer
+
+Datalogic has taken reasonable measures to provide information in this
+manual that is complete and accurate; however, Datalogic reserves the
+right to change any specification at any time without prior notice.
+
+Datalogic and the Datalogic logo are registered trademarks of Datalogic
+S.p.A. in many countries, including the U.S.A. and the E.U. All other
+brand and product names may be trademarks of their respective owners.
+
+## Patents
+
+See
+[<span class="underline">www.patents.datalogic.com</span>](http://www.patents.datalogic.com/)
+for patent list.
