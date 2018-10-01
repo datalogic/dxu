@@ -1,32 +1,6 @@
 ---
-title: Datalogic DXU Desktop
+title: DXU Manual Version 1.10
 ---
-
-# Version 1.10
-
-## Contents
-
-1. [Audience](#audience)
-
-1. [Conventions](#conventions)
-
-1. [Product Overview](#product-overview)
-
-1. [Installation](#installation)
-
-1. [DXU Overview](#dxu-overview)
-
-1. [Scan2Deploy](#scan2deploy)
-
-1. [Device Configuration](#device-configuration)
-
-1. [Device Info](#device-info)
-
-1. [Remote Control](#remote-control)
-
-1. [Firmware Utility](#firmware-utility)
-
-1. [Credits](#credits)
 
 ## Audience
 
@@ -566,7 +540,7 @@ Simply click the exit button (**X**) located at top right of the device.
 
 ![X](./media/image51.png)
 
-### Command Line DXU Execution
+### Command Line
 
 DXU allows for command line execution, such as via a .bat batch file.
 This is a convenient method for configuring multiple devices without
@@ -608,7 +582,7 @@ To output a log file, add the optional parameter:
 DXU -log <logfilename>
 ```
 
-### Enable Logging on the Datalogic Mobile Computer
+### Logging
 
 DXU Agent can log its activities. When enabled, logs are written to the
 log file location. Logging can be helpful when diagnosing problems, but
@@ -671,7 +645,7 @@ To specify where log files are stored on your Datalogic mobile computer:
 
 10. Clean up by tapping the **Home** button.
 
-### Set User Names, Passwords, and Prompt for Authentication on DXU Configuration Files
+### Security
 
 Configurations and configuration files can require authentication to
 open and apply. DXU implements an invisible sort of authentication by
@@ -1007,13 +981,6 @@ DXU Agent for Windows CE can be found in the device's Control Panel.
 * run a customary script (to perform any additional setup).
 
 It's worth noticing that the application is *not* a resident service. The above-mentioned actions are performed as long as `Scan2Deploy` is active and in use.
-
-### Scan2Deploy Topics
-
-1. [Creating Scan2Deploy files](#creating-scan2deploy-files)
-1. [Barcode Generation](#barcode-generation)
-1. [Scan2Deploy Android](#scan2deploy-android)
-1. [Scan2Deploy Windows CE](#scan2deploy-windows-ce)
 
 ### Creating Scan2Deploy files
 
