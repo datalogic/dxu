@@ -4,53 +4,62 @@ main:
 
 docs:
   - title: Getting Started
+    url: /getting-started
     children:
       - title: "Audience"
-        url: /#audience
+        url: /getting-started/#audience
       - title: "Conventions"
-        url: /#conventions
+        url: /getting-started/#conventions
       - title: "Installation"
-        url: /#installation
+        url: /getting-started/#installation
 
   - title: "DXU Overview"
+    url: /dxu-overview
     children:
+      - title: "Features"
+        url: /dxu-overview/#features
+      - title: "How DXU Works"
+        url: /dxu-overview/#how-dxu-works
+      - title: Supported Datalogic Mobile Computers
+        url: /dxu-overview/#supported-datalogic-mobile-computers
       - title: "DXU Desktop Tasks"
-        url: /#dxu-desktop-tasks
+        url: /dxu-overview/#dxu-desktop-tasks
       - title: "Configure DXU"
-        url: /#configure-dxu
+        url: /dxu-overview/#configure-dxu
       - title: "Connect to devices"
-        url: /#connect-to-devices
+        url: /dxu-overview/#connect-to-devices
       - title: "Command Line"
-        url: /#command-line
+        url: /dxu-overview/#command-line
       - title: "Logging"
-        url: /#logging
+        url: /dxu-overview/#logging
       - title: "Security"
-        url: /#security
-      - title: "DXU Agents"
-        url: /#dxu-agents
-
-  - title: "Scan2Deploy"
-    children:
-      - title: "Scan2Deploy"
-        url: /#scan2deploy
-      - title: "Creating Scan2Deploy files"
-        url: /#creating-scan2deploy-files
-      - title: "Barcode Generation"
-        url: /#barcode-generation
-      - title: "Scan2Deploy Android"
-        url: /#scan2deploy-android
-      - title: "Scan2Deploy Windows CE"
-        url: /#scan2deploy-windows-ce
+        url: /dxu-overview/#security
+      - title: "DXU Agent - Android"
+        url: /dxu-overview/#dxu-agent-android
+      - title: "DXU Agent - Windows CE"
+        url: /dxu-overview/#dxu-agent-windows-ce
 
   - title: "DXU Features"
+    url: dxu-features
     children:
       - title: "Device Configuration"
-        url: /#device-configuration
+        url: /dxu-features/#device-configuration
       - title: "Device Info"
-        url: /#device-info
+        url: /dxu-features/#device-info
       - title: "Remote Control"
-        url: /#remote-control
+        url: /dxu-features/#remote-control
       - title: "Firmware Utility"
-        url: /#firmware-utility
+        url: /dxu-features/#firmware-utility
 
+  - title: "Scan2Deploy"
+    url: /scan2deploy
+    children:
+      - title: "Creating Scan2Deploy files"
+        url: /scan2deploy/#creating-scan2deploy-files
+      - title: "Barcode Generation"
+        url: /scan2deploy/#barcode-generation
+      - title: "Scan2Deploy Android"
+        url: /scan2deploy/#scan2deploy-android
+      - title: "Scan2Deploy Windows CE"
+        url: scan2deploy/#scan2deploy-windows-ce
 
