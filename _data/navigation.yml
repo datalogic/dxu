@@ -1,0 +1,65 @@
+# main links
+main:
+
+
+docs:
+  - title: Getting Started
+    url: /getting-started
+    children:
+      - title: "Audience"
+        url: /getting-started/#audience
+      - title: "Conventions"
+        url: /getting-started/#conventions
+      - title: "Installation"
+        url: /getting-started/#installation
+
+  - title: "DXU Overview"
+    url: /dxu-overview
+    children:
+      - title: "Features"
+        url: /dxu-overview/#features
+      - title: "How DXU Works"
+        url: /dxu-overview/#how-dxu-works
+      - title: Supported Datalogic Mobile Computers
+        url: /dxu-overview/#supported-datalogic-mobile-computers
+      - title: "DXU Desktop Tasks"
+        url: /dxu-overview/#dxu-desktop-tasks
+      - title: "Configure DXU"
+        url: /dxu-overview/#configure-dxu
+      - title: "Connect to devices"
+        url: /dxu-overview/#connect-to-devices
+      - title: "Command Line"
+        url: /dxu-overview/#command-line
+      - title: "Logging"
+        url: /dxu-overview/#logging
+      - title: "Security"
+        url: /dxu-overview/#security
+      - title: "DXU Agent - Android"
+        url: /dxu-overview/#dxu-agent-android
+      - title: "DXU Agent - Windows CE"
+        url: /dxu-overview/#dxu-agent-windows-ce
+
+  - title: "DXU Features"
+    url: dxu-features
+    children:
+      - title: "Device Configuration"
+        url: /dxu-features/#device-configuration
+      - title: "Device Info"
+        url: /dxu-features/#device-info
+      - title: "Remote Control"
+        url: /dxu-features/#remote-control
+      - title: "Firmware Utility"
+        url: /dxu-features/#firmware-utility
+
+  - title: "Scan2Deploy"
+    url: /scan2deploy
+    children:
+      - title: "Creating Scan2Deploy files"
+        url: /scan2deploy/#creating-scan2deploy-files
+      - title: "Barcode Generation"
+        url: /scan2deploy/#barcode-generation
+      - title: "Scan2Deploy Android"
+        url: /scan2deploy/#scan2deploy-android
+      - title: "Scan2Deploy Windows CE"
+        url: scan2deploy/#scan2deploy-windows-ce
+
