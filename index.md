@@ -1,10 +1,14 @@
 ---
-title: DXU Manual Version 1.10
+title: DXU Manual
 ---
 
 Thank you for using Datalogic DXU. Please use the links on the left to access the various sections of the manual, or start here:
 
 [Getting Started](getting-started.md)
+
+Released versions of DXU are available here:
+
+[Releases](https://github.com/datalogic/dxu/releases)
 
 ## Credits
 
