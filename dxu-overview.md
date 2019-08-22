@@ -471,7 +471,11 @@ Once you have enabled USB debugging on your device, you are ready to connect you
 
 2. Connect your device to your PC with a **USB** cable.
 
-3. Click the device’s button in the “**Available Device**” list.
+3. On the device, allow the USB debugging connection.
+
+    ![Allow USB debugging](./media/image86.png)
+
+4. Click the device’s button in the “**Available Device**” list.
 
 #### Connect to a Device via Network Manually
 
