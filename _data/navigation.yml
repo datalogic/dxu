@@ -39,6 +39,18 @@ docs:
       - title: "DXU Agent - Windows CE"
         url: /dxu-overview/#dxu-agent-windows-ce
 
+  - title: "Connect to devices"
+    url: connect-to-devices
+    children:
+      - title: "Enable DXU Service"
+        url: /connect-to-devices/#enable-dxu-service
+      - title: "Connect via USB"
+        url: /connect-to-devices/#connect-via-usb
+      - title: Connect via Network Manually
+        url: /connect-to-devices/#connect-via-network-manually
+      - title: Removing a device
+        url: /connect-to-devices/#removing-a-device
+
   - title: "DXU Features"
     url: dxu-features
     children:
